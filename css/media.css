@@ -2,6 +2,7 @@
   .container {
     width: 85%;
   }
+  /*--- NavBar ---*/
   .nav .menu ul {
     display: none;
   }
@@ -11,7 +12,7 @@
   .dark_mode {
     display: flex;
   }
-
+  /*--- Home ---*/
   .home {
     height: 100%;
     padding: 100px 0 30px;
@@ -31,14 +32,17 @@
     justify-content: center;
   }
 
+  /*--- Chefs ---*/
   .chefs .chefs-item {
     width: 100%;
   }
 
+  /*--- Gallery ---*/
   .gallery .gallery-item {
     columns: 1;
   }
 
+  /*--- Contact ---*/
   .contact .contact-desc .contact-column {
     width: 100%;
   }
@@ -48,6 +52,8 @@
   .contact .contact-input .name-email input {
     width: 100%;
   }
+
+  /*--- Footer ---*/
   .footer .coll {
     flex-wrap: wrap;
   }
@@ -80,12 +86,15 @@
   .container {
     width: 90%;
   }
+  /*--- NavBar ---*/
   .nav .menu ul {
     display: flex;
   }
   .menu-icon {
     display: none;
   }
+
+  /*--- Home ---*/
   .home {
     height: 100%;
     padding: 100px 0 30px;
@@ -104,13 +113,17 @@
   .home .home-desc .home-btn {
     justify-content: center;
   }
-
+  /*--- Chefs ---*/
   .chefs .chefs-item {
     width: 50%;
   }
+
+  /*--- Gallery ---*/
   .gallery .gallery-item {
     columns: 2;
   }
+
+  /*--- Contact ---*/
   .contact .contact-desc .contact-column {
     width: 50%;
   }
@@ -120,6 +133,8 @@
   .contact .contact-input .name-email input {
     width: 100%;
   }
+
+  /*--- Footer ---*/
   .footer .coll {
     flex-wrap: wrap;
     flex-direction: row;
@@ -157,6 +172,7 @@
   .container {
     width: 90%;
   }
+  /*--- NavBar ---*/
   .nav .menu ul {
     display: flex;
   }
@@ -164,6 +180,7 @@
     display: none;
   }
 
+  /*--- Home ---*/
   .home {
     padding: 100px 0 30px;
     height: 100vh;
@@ -171,7 +188,6 @@
   .home .home-contant {
     flex-direction: row;
   }
-
   .home .home-desc {
     width: 40%;
     text-align: start;
@@ -184,15 +200,19 @@
     justify-content: start;
   }
 
+  /*--- Chefs ---*/
   .chefs .chefs-item {
     width: 33.333%;
   }
 
+  /*--- Gallery ---*/
   .gallery .gallery-item {
     columns: 3;
   }
+
+  /*--- Contact ---*/
   .contact .contact-desc .contact-column {
-    width: 33.333%;
+    width: 50%;
   }
   .contact .contact-input .name-email {
     flex-direction: row;
@@ -200,6 +220,8 @@
   .contact .contact-input .name-email input {
     width: 50%;
   }
+
+  /*--- Footer ---*/
   .footer .coll {
     flex-wrap: wrap;
     flex-direction: row;
@@ -213,9 +235,6 @@
     width: 100%;
     order: 3;
     padding-right: 10px;
-  }
-  .contact .contact-desc .contact-column {
-    width: 50%;
   }
   .footer .footer-subscribe .email-btn input {
     width: 80%;
@@ -232,17 +251,20 @@
     padding: 10px 0 0;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .container {
     width: 90%;
   }
+
+  /*--- NavBar ---*/
   .nav .menu ul {
     display: flex;
   }
   .menu-icon {
     display: none;
   }
-
+  /*--- Home ---*/
   .home {
     padding: 100px 0 30px;
     height: 100vh;
@@ -250,7 +272,6 @@
   .home .home-contant {
     flex-direction: row;
   }
-
   .home .home-desc {
     width: 40%;
     text-align: start;
@@ -263,15 +284,19 @@
     justify-content: start;
   }
 
+  /*--- Chefs ---*/
   .chefs .chefs-item {
     width: 33.333%;
   }
 
+  /*--- Gallery ---*/
   .gallery .gallery-item .column {
     width: 33.333%;
   }
+
+  /*--- Contact ---*/
   .contact .contact-desc .contact-column {
-    width: 33.333%;
+    width: 50%;
   }
   .contact .contact-input .name-email {
     flex-direction: row;
@@ -279,6 +304,8 @@
   .contact .contact-input .name-email input {
     width: 50%;
   }
+
+  /*--- Footer ---*/
   .footer .coll {
     flex-wrap: wrap;
     flex-direction: row;
@@ -292,9 +319,6 @@
     width: 50%;
     order: 0;
     padding-right: 20px;
-  }
-  .contact .contact-desc .contact-column {
-    width: 50%;
   }
   .footer .footer-subscribe .email-btn input {
     width: 80%;
