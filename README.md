@@ -32,3 +32,9 @@ It’s built to provide a smooth user experience and professional visual present
 - **CSS3**
 - **Font Awesome**
 - **Google Fonts**
+
+---
+
+## 🌐 Live Demo
+
+👉 [**Live Demo**](https://islamelsaedy616.github.io/Mealify-restaurant-website/)
